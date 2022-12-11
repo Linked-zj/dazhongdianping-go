@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-func GormInit() {
+func InitGorm() {
 	newLogger := logger.New(
 		log.New(os.Stdout, "\r\n", log.LstdFlags), // io writer（日志输出的目标，前缀和日志包含的内容——译者注）
 		logger.Config{

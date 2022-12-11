@@ -12,7 +12,7 @@ func main() {
 	initialize.InitConfig()
 	Router := router.Routers()
 
-	initialize.GormInit()
+	initialize.InitGorm()
 
 	Router.Run(fmt.Sprintf(":%d", global.ServerConfig.Port))
 }
