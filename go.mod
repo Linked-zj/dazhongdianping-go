@@ -3,8 +3,10 @@ module dazhongdianping-go
 go 1.18
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/gin-gonic/gin v1.8.1
+	github.com/google/uuid v1.1.2
 	github.com/spf13/viper v1.14.0
 	gorm.io/driver/mysql v1.4.4
 	gorm.io/gorm v1.24.2

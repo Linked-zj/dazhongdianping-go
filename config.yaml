@@ -2,6 +2,9 @@
 name: "dazhongdianping"
 port: 8090
 
+jwt:
+  key: 'LINKED2019NICENICE'
+
 
 mysql:
   host: 127.0.0.1

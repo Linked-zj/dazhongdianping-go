@@ -18,6 +18,7 @@ func Routers() *gin.Engine {
 	InitFlashSaleRouter(ApiRouter)
 	InitShopRouter(ApiRouter)
 	InitCommentRouter(ApiRouter)
+	InitUserRouter(ApiRouter)
 	return Router
 
 }
