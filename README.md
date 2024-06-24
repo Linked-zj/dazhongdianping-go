@@ -33,7 +33,7 @@
 | Nginx               | 静态资源服务器         | [nginx](https://www.nginx.com/) |
 | Docker              | 应用容器引擎           | [docker](https://www.docker.com) |
 | Jenkins             | 自动化部署工具         | [jenkins](https://github.com/jenkinsci/jenkins) |
-| jwt-go              | JWT登录支持            | [jwt-go]([https://github.com/jwtk/jjwt](https://github.com/dgrijalva/jwt-go)) |
+| jwt-go              | JWT登录支持            | [jwt-go](https://github.com/jwtk/jjwt](https://github.com/dgrijalva/jwt-go)) |
 
 
 
